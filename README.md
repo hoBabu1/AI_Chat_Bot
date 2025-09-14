@@ -8,6 +8,11 @@ This is the guide to running `ollama` locally on `ubuntu` and writing python scr
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
+After installation check version with 
+``` 
+ollama --version 
+```
+
 ## Command to Pull Mistral software 
 Mistral is an open-source large language model (LLM) created by Mistral AI
 It’s similar to LLaMA, GPT, etc., but optimized to be lightweight and efficient.
@@ -57,4 +62,13 @@ Python script is a command-line AI assistant using Ollama’s Mistral model. It 
 
 - Sends the JSON and user question to Mistral to get AI-generated answers based on the data.
 
+Attaching screenshots below 
+- Got data from telegram channel and stored in json file -
+- Asked a question - What is your name? 
+![alt text](./images/image.png)
 
+- Asked a question - Is AI good or Bad? -
+![alt text](./images/image-1.png)
+
+- Querying details from my telegram channel -
+![alt text](./images/image-2.png)
