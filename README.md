@@ -13,6 +13,24 @@ After installation check version with
 ollama --version 
 ```
 
+### Install LlamaIndex core
+```
+pip install llama-index
+```
+
+### Install Ollama integration for LlamaIndex
+```
+pip install llama-index-llms-ollama
+```
+```
+pip install llama-index-embeddings-ollama
+```
+
+### Pull embedding model (if not already done)
+```
+ollama pull nomic-embed-text
+```
+
 ## Command to Pull Mistral software 
 Mistral is an open-source large language model (LLM) created by Mistral AI
 It’s similar to LLaMA, GPT, etc., but optimized to be lightweight and efficient.
@@ -72,3 +90,4 @@ Attaching screenshots below
 
 - Querying details from my telegram channel -
 ![alt text](./images/image-2.png)
+
